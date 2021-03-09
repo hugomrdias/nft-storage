@@ -13,6 +13,7 @@
       "types": ["./site/node_modules/@cloudflare/workers-types"]
     },
     "include": [
+      "api/src/*.js",
       "site/src/*.js",
       "site/src/bindings.d.ts",
       "site/node_modules/@cloudflare/workers-types/index.d.ts"

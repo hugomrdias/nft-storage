@@ -8,4 +8,5 @@ declare global {
   const SALT: string
   const SESSION: KVNamespace
   const CSRF: KVNamespace
+  const USERS: KVNamespace
 }

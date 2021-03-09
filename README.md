@@ -15,12 +15,15 @@ yarn start
 
 ## KV namespaces
 
+- `wrangler kv:namespace create USERS`
 - `wrangler kv:namespace create SESSION`
 - `wrangler kv:namespace create SESSION --env production`
 - `wrangler kv:namespace create CSRF`
 - `wrangler kv:namespace create CSRF --end production`
 
 ## Secrets
+Get random strings from `https://csprng.xyz/v1/api`
+
 ```
 wrangler secret put AUTH0_DOMAIN
 wrangler secret put AUTH0_CLIENT_ID

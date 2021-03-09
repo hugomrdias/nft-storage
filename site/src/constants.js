@@ -1,6 +1,7 @@
 const stores = {
     auth: SESSION,
-    csrf: CSRF
+    csrf: CSRF,
+    users: USERS
 }
 const auth0 = {
     domain: AUTH0_DOMAIN,
